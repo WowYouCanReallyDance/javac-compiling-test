@@ -1,0 +1,61 @@
+# 编译输出
+*.class
+*.exe
+*.dll
+*.so
+*.o
+
+# 日志文件
+*.log
+logs/
+*.logs
+
+# 包与依赖
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+lib/
+
+# IDE配置
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# 构建工具
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+.mvn/timing.properties
+
+# Gradle
+build/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 测试相关
+/test-output/
+/report/
+*.jfr
+
+# 环境配置
+.env
+*.properties
+*.cfg
+
+# 排除特殊目录（示例）
+!src/main/resources/build/  # 保留资源目录中的构建文件
