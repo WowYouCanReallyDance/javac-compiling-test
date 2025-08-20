@@ -8,7 +8,7 @@ function build_and_run() {
     local RESET="\033[0m"
 
     # 定义全局复用变量(在所有内部函数中可见)
-    local jdkbin="${1:-/Library/Java/JavaVirtualMachines/graalvm-jdk-21.0.5+9.1/Contents/Home/bin}"
+    local jdkbin="${1:-/Library/Java/JavaVirtualMachines/graalvm-jdk-21.0.8+12.1/Contents/Home/bin}"
     local src_dir="src/main/java"
     local classes_dir="target/classes"
     local runnable_dir="target/jct-runnable"

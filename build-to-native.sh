@@ -8,7 +8,7 @@ function build_to_native() {
     local RESET="\033[0m"
     
     # 定义路径变量
-    local graalbin="${1:-/Library/Java/JavaVirtualMachines/graalvm-jdk-21.0.5+9.1/Contents/Home/bin}"
+    local graalbin="${1:-/Library/Java/JavaVirtualMachines/graalvm-jdk-21.0.8+12.1/Contents/Home/bin}"
     local jar_file="target/jct-runnable.jar"
     local native_image_path="${graalbin}/native-image"
     local native_executable="target/jct-native"
